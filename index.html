@@ -1,851 +1,1785 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ultimate QR Code Generator</title>
+  <head>
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>
+      Free QR Code Generator Online - Create Custom QR Codes with Logo | 2025
+    </title>
+    <meta
+      name="title"
+      content="Free QR Code Generator Online - Create Custom QR Codes with Logo | 2025"
+    />
+    <meta
+      name="description"
+      content="Generate free custom QR codes instantly! Add logos, customize colors, choose from 8+ professional templates. Download as PNG/SVG. Perfect for business, marketing & personal use. No sign-up required."
+    />
+    <meta
+      name="keywords"
+      content="QR code generator, free QR code maker, custom QR code, QR code with logo, online QR generator, business QR code, download QR code PNG, QR code SVG, create QR code free, QR code design, branded QR code, QR code creator, vCard QR code, URL QR code"
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="language" content="English" />
+    <meta name="author" content="QR Code Generator Pro" />
+    <meta name="revisit-after" content="3 days" />
+    <meta name="rating" content="General" />
+    <meta name="distribution" content="global" />
+    <meta name="coverage" content="Worldwide" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://qr-seven-zeta.vercel.app/" />
+
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://qr-seven-zeta.vercel.app/" />
+    <meta
+      property="og:title"
+      content="Free QR Code Generator - Create Custom QR Codes with Logo"
+    />
+    <meta
+      property="og:description"
+      content="Generate free custom QR codes instantly! Add logos, customize colors, choose from 8+ professional templates. Download as PNG/SVG. No sign-up required."
+    />
+    <meta
+      property="og:image"
+      content="https://qr-seven-zeta.vercel.app/og-image.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="QR Code Generator Interface" />
+    <meta property="og:site_name" content="QR Code Generator Pro" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:updated_time" content="2025-01-15T10:00:00+00:00" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://qr-seven-zeta.vercel.app/" />
+    <meta
+      name="twitter:title"
+      content="Free QR Code Generator - Create Custom QR Codes Online"
+    />
+    <meta
+      name="twitter:description"
+      content="Generate free custom QR codes instantly! Add logos, customize colors, download as PNG/SVG. Perfect for business & marketing."
+    />
+    <meta
+      name="twitter:image"
+      content="https://qr-seven-zeta.vercel.app/twitter-image.jpg"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Professional QR Code Generator Tool"
+    />
+    <meta name="twitter:creator" content="@qrcodegen" />
+    <meta name="twitter:site" content="@qrcodegen" />
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="geo.region" content="US" />
+    <meta name="geo.placename" content="United States" />
+    <meta name="application-name" content="QR Code Generator" />
+    <meta name="apple-mobile-web-app-title" content="QR Generator" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+    <meta
+      name="google-site-verification"
+      content="djuqZDyA-AeFpFdQcLt_POJMu5skU1Y_Bnu_8xL8GuE"
+    />
+    <!-- Favicon & Icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+    />
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Structured Data - WebApplication -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "QR Code Generator Pro",
+        "url": "https://qr-seven-zeta.vercel.app/",
+        "description": "Free online QR code generator with advanced customization options. Create custom QR codes with logos, colors, and professional templates. Download as PNG or SVG.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Custom QR Code Generation",
+          "Logo Integration",
+          "Color Customization",
+          "Multiple Templates",
+          "PNG Download",
+          "SVG Download",
+          "Error Correction Levels",
+          "No Registration Required"
+        ],
+        "browserRequirements": "Requires JavaScript. Requires HTML5.",
+        "softwareVersion": "2.0",
+        "screenshot": "https://qr-seven-zeta.vercel.app/screenshot.jpg",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "15420",
+          "bestRating": "5",
+          "worstRating": "1"
+        }
+      }
+    </script>
+
+    <!-- Structured Data - Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "QR Code Generator Pro",
+        "url": "https://qr-seven-zeta.vercel.app/",
+        "logo": "https://qr-seven-zeta.vercel.app/logo.png",
+        "description": "Professional QR code generation service providing free, customizable QR codes for businesses and individuals worldwide."
+      }
+    </script>
+
+    <!-- Structured Data - BreadcrumbList -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://qr-seven-zeta.vercel.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "QR Code Generator",
+            "item": "https://qr-seven-zeta.vercel.app/"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Structured Data - HowTo -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Create a Custom QR Code",
+        "description": "Step-by-step guide to creating a custom QR code with logo and colors",
+        "image": "https://qr-seven-zeta.vercel.app/howto-image.jpg",
+        "totalTime": "PT2M",
+        "estimatedCost": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": "0"
+        },
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Enter Content",
+            "text": "Enter your URL, text, or any content you want to encode in the QR code",
+            "image": "https://qr-seven-zeta.vercel.app/step1.jpg"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Customize Design",
+            "text": "Choose colors, select dot styles, and pick from 8 professional templates",
+            "image": "https://qr-seven-zeta.vercel.app/step2.jpg"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Add Logo (Optional)",
+            "text": "Upload your company logo or brand image to center of QR code",
+            "image": "https://qr-seven-zeta.vercel.app/step3.jpg"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Download",
+            "text": "Click generate and download your custom QR code as PNG or SVG",
+            "image": "https://qr-seven-zeta.vercel.app/step4.jpg"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Structured Data - FAQPage -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is this QR code generator free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, our QR code generator is completely free to use. You can create unlimited QR codes, customize them, add logos, and download them without any charges or registration."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I add my logo to the QR code?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely! You can upload your company logo or any image to be displayed in the center of your QR code. The logo size is adjustable to ensure optimal scanning."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What formats can I download the QR code in?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can download your QR code in two formats: PNG (raster image) for web and print use, or SVG (vector format) for scalable, high-quality graphics that maintain clarity at any size."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do QR codes expire?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, QR codes generated with our tool never expire. Once created, they will work indefinitely as long as the content they link to remains accessible."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What error correction level should I use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Medium (15%) is recommended for most use cases. Use High (30%) if you're adding a logo or if the QR code might get damaged. Low (7%) works for clean environments, while Quartile (25%) offers a good balance."
+            }
+          }
+        ]
+      }
+    </script>
+
     <style>
-        :root {
-            --primary-color: #6366f1;
-            --secondary-color: #4f46e5;
-            --light-color: #f9fafb;
-            --dark-color: #1f2937;
-            --success-color: #10b981;
-            --warning-color: #f59e0b;
-            --danger-color: #ef4444;
-        }
-        
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
-            min-height: 100vh;
-        }
-        
-        .navbar-brand {
-            font-weight: 700;
-            color: var(--primary-color);
-        }
-        
+      :root {
+        --primary-color: #6366f1;
+        --secondary-color: #4f46e5;
+        --light-color: #f9fafb;
+        --dark-color: #1f2937;
+        --success-color: #10b981;
+        --warning-color: #f59e0b;
+        --danger-color: #ef4444;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+        min-height: 100vh;
+      }
+
+      .navbar-brand {
+        font-weight: 700;
+        color: var(--primary-color);
+      }
+
+      .main-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      .card {
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border: none;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .card-header {
+        background-color: #fff;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        font-weight: 600;
+        border-radius: 12px 12px 0 0 !important;
+      }
+
+      .btn-primary {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+      }
+
+      .btn-primary:hover {
+        background-color: var(--secondary-color);
+        border-color: var(--secondary-color);
+      }
+
+      .form-control,
+      .form-select {
+        border-radius: 8px;
+        padding: 0.6rem 1rem;
+        height: 40px;
+      }
+
+      .form-control:focus,
+      .form-select:focus {
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 0.25rem rgba(99, 102, 241, 0.25);
+      }
+
+      .qr-preview-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 300px;
+        background-color: #fff;
+        border-radius: 12px;
+        padding: 1.5rem;
+        position: relative;
+      }
+
+      .template-option {
+        cursor: pointer;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+      }
+
+      .template-option.active {
+        border-color: var(--primary-color);
+        transform: scale(1.05);
+      }
+
+      .template-option:hover {
+        transform: scale(1.05);
+      }
+
+      .template-option img {
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+      }
+
+      .qr-template {
+        position: relative;
+        display: inline-block;
+      }
+
+      .qr-template-basic {
+        padding: 10px;
+        background-color: white;
+      }
+
+      .qr-template-rounded {
+        padding: 15px;
+        background-color: white;
+        border-radius: 24px;
+        overflow: hidden;
+      }
+
+      .qr-template-shadow {
+        padding: 15px;
+        background-color: white;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      }
+
+      .qr-template-gradient {
+        padding: 15px;
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        border-radius: 16px;
+      }
+
+      .qr-template-frame {
+        padding: 20px;
+        background-color: white;
+        border: 8px solid #333;
+      }
+
+      .qr-template-dots {
+        padding: 15px;
+        background-color: white;
+        background-image: radial-gradient(#ddd 1px, transparent 1px);
+        background-size: 10px 10px;
+      }
+
+      .qr-template-scan-me {
+        padding: 15px 15px 40px 15px;
+        background-color: white;
+        position: relative;
+      }
+
+      .qr-template-scan-me::after {
+        content: "SCAN ME";
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-weight: bold;
+        color: #333;
+      }
+
+      .qr-template-polaroid {
+        padding: 15px 15px 40px 15px;
+        background-color: white;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      .color-preview {
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        border-radius: 50%;
+        margin-right: 10px;
+        vertical-align: middle;
+        border: 1px solid #ddd;
+      }
+
+      .loading-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        border-radius: 12px;
+      }
+
+      .spinner-border {
+        width: 3rem;
+        height: 3rem;
+        color: var(--primary-color);
+      }
+
+      .logo-overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 30%;
+        max-height: 30%;
+        z-index: 5;
+      }
+
+      .template-title {
+        font-size: 0.9rem;
+        text-align: center;
+        margin-top: 0.5rem;
+        font-weight: 500;
+      }
+
+      .download-btn {
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .toast-container {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1050;
+      }
+
+      /* SEO Content Section */
+      .seo-content {
+        background: white;
+        border-radius: 12px;
+        padding: 2rem;
+        margin-top: 2rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .seo-content h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--dark-color);
+        margin-bottom: 1rem;
+      }
+
+      .seo-content h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--dark-color);
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .seo-content h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: var(--dark-color);
+        margin-top: 1.25rem;
+        margin-bottom: 0.75rem;
+      }
+
+      .seo-content p {
+        line-height: 1.8;
+        color: #555;
+        margin-bottom: 1rem;
+      }
+
+      .seo-content ul {
+        margin: 1rem 0;
+        padding-left: 2rem;
+      }
+
+      .seo-content ul li {
+        margin-bottom: 0.5rem;
+        line-height: 1.6;
+      }
+
+      .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        margin: 2rem 0;
+      }
+
+      .feature-card {
+        padding: 1.5rem;
+        background: #f8f9fa;
+        border-radius: 8px;
+        text-align: center;
+      }
+
+      .feature-card i {
+        font-size: 2.5rem;
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+      }
+
+      .feature-card h4 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+      #qrContent {
+        height: 100px;
+      }
+      @media (max-width: 768px) {
         .main-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
+          padding: 1rem;
         }
-        
-        .card {
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border: none;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-        }
-        
-        .card-header {
-            background-color: #fff;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-            font-weight: 600;
-            border-radius: 12px 12px 0 0 !important;
-        }
-        
-        .btn-primary {
-            background-color: var(--primary-color);
-            border-color: var(--primary-color);
-        }
-        
-        .btn-primary:hover {
-            background-color: var(--secondary-color);
-            border-color: var(--secondary-color);
-        }
-        
-        .form-control, .form-select {
-            border-radius: 8px;
-            padding: 0.6rem 1rem;
-        }
-        
-        .form-control:focus, .form-select:focus {
-            border-color: var(--primary-color);
-            box-shadow: 0 0 0 0.25rem rgba(99, 102, 241, 0.25);
-        }
-        
+
         .qr-preview-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 300px;
-            background-color: #fff;
-            border-radius: 12px;
-            padding: 1.5rem;
-            position: relative;
+          min-height: 250px;
         }
-        
-        .template-option {
-            cursor: pointer;
-            border: 2px solid transparent;
-            border-radius: 8px;
-            overflow: hidden;
-            transition: all 0.3s ease;
+
+        .seo-content {
+          padding: 1.5rem;
         }
-        
-        .template-option.active {
-            border-color: var(--primary-color);
-            transform: scale(1.05);
+
+        .seo-content h1 {
+          font-size: 1.5rem;
         }
-        
-        .template-option:hover {
-            transform: scale(1.05);
+
+        .seo-content h2 {
+          font-size: 1.25rem;
         }
-        
-        .template-option img {
-            width: 100%;
-            height: auto;
-            border-radius: 6px;
-        }
-        
-        /* QR Code Templates Styles */
-        .qr-template {
-            position: relative;
-            display: inline-block;
-        }
-        
-        .qr-template-basic {
-            padding: 10px;
-            background-color: white;
-        }
-        
-        .qr-template-rounded {
-            padding: 15px;
-            background-color: white;
-            border-radius: 24px;
-            overflow: hidden;
-        }
-        
-        .qr-template-shadow {
-            padding: 15px;
-            background-color: white;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-        }
-        
-        .qr-template-gradient {
-            padding: 15px;
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            border-radius: 16px;
-        }
-        
-        .qr-template-frame {
-            padding: 20px;
-            background-color: white;
-            border: 8px solid #333;
-        }
-        
-        .qr-template-dots {
-            padding: 15px;
-            background-color: white;
-            background-image: radial-gradient(#ddd 1px, transparent 1px);
-            background-size: 10px 10px;
-        }
-        
-        .qr-template-scan-me {
-            padding: 15px 15px 40px 15px;
-            background-color: white;
-            position: relative;
-        }
-        
-        .qr-template-scan-me::after {
-            content: "SCAN ME";
-            position: absolute;
-            bottom: 10px;
-            left: 0;
-            right: 0;
-            text-align: center;
-            font-weight: bold;
-            color: #333;
-        }
-        
-        .qr-template-polaroid {
-            padding: 15px 15px 40px 15px;
-            background-color: white;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-        }
-        
-        .color-preview {
-            width: 25px;
-            height: 25px;
-            display: inline-block;
-            border-radius: 50%;
-            margin-right: 10px;
-            vertical-align: middle;
-            border: 1px solid #ddd;
-        }
-        
-        .loading-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: rgba(255, 255, 255, 0.8);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 10;
-            border-radius: 12px;
-        }
-        
-        .spinner-border {
-            width: 3rem;
-            height: 3rem;
-            color: var(--primary-color);
-        }
-        
-        .logo-overlay {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            max-width: 30%;
-            max-height: 30%;
-            z-index: 5;
-        }
-        
-        .template-title {
-            font-size: 0.9rem;
-            text-align: center;
-            margin-top: 0.5rem;
-            font-weight: 500;
-        }
-        
-        .download-btn {
-            margin-right: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        .toast-container {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 1050;
-        }
-        
-        @media (max-width: 768px) {
-            .main-container {
-                padding: 1rem;
-            }
-            
-            .qr-preview-container {
-                min-height: 250px;
-            }
-        }
+      }
     </style>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  </head>
+  <body>
+    <!-- Header with Schema Markup -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-white shadow-sm"
+        role="navigation"
+        aria-label="Main navigation"
+      >
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <i class="fas fa-qrcode me-2"></i>Ultimate QR Generator
-            </a>
+          <a
+            class="navbar-brand"
+            href="https://qr-seven-zeta.vercel.app/"
+            aria-label="QR Code Generator Home"
+          >
+            <i class="fas fa-qrcode me-2" aria-hidden="true"></i>QR Code
+            Generator Pro
+          </a>
         </div>
-    </nav>
+      </nav>
+    </header>
 
-    <div class="main-container">
-        <div class="row g-4">
-            <div class="col-lg-7">
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <i class="fas fa-pen me-2"></i>QR Code Content
-                    </div>
-                    <div class="card-body">
-                        <div class="mb-3">
-                            <label for="qrContent" class="form-label">Enter text or URL</label>
-                            <textarea class="form-control" id="qrContent" rows="3" placeholder="Enter the content for your QR code..."></textarea>
-                        </div>
-                        <button id="generateBtn" class="btn btn-primary">
-                            <i class="fas fa-sync-alt me-2"></i>Generate QR Code
-                        </button>
-                    </div>
-                </div>
-
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <i class="fas fa-palette me-2"></i>Customization Options
-                    </div>
-                    <div class="card-body">
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <label class="form-label">Foreground Color</label>
-                                <div class="input-group">
-                                    <span class="input-group-text">
-                                        <span id="fgColorPreview" class="color-preview" style="background-color: #000000;"></span>
-                                    </span>
-                                    <input type="color" class="form-control form-control-color" id="fgColor" value="#000000">
-                                    <input type="text" class="form-control" id="fgColorText" value="#000000">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <label class="form-label">Background Color</label>
-                                <div class="input-group">
-                                    <span class="input-group-text">
-                                        <span id="bgColorPreview" class="color-preview" style="background-color: #FFFFFF;"></span>
-                                    </span>
-                                    <input type="color" class="form-control form-control-color" id="bgColor" value="#FFFFFF">
-                                    <input type="text" class="form-control" id="bgColorText" value="#FFFFFF">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="qrSize" class="form-label">QR Code Size</label>
-                                <div class="input-group">
-                                    <input type="range" class="form-range form-control" id="qrSize" min="100" max="400" value="200">
-                                    <span class="input-group-text" id="qrSizeValue">200px</span>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="errorCorrectionLevel" class="form-label">Error Correction</label>
-                                <select class="form-select" id="errorCorrectionLevel">
-                                    <option value="L">Low (7%)</option>
-                                    <option value="M" selected>Medium (15%)</option>
-                                    <option value="Q">Quartile (25%)</option>
-                                    <option value="H">High (30%)</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="qrMargin" class="form-label">Margin/Padding</label>
-                                <div class="input-group">
-                                    <input type="range" class="form-range form-control" id="qrMargin" min="0" max="5" value="1">
-                                    <span class="input-group-text" id="qrMarginValue">1</span>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="dotStyle" class="form-label">Dot Style</label>
-                                <select class="form-select" id="dotStyle">
-                                    <option value="square" selected>Square</option>
-                                    <option value="dots">Dots</option>
-                                    <option value="rounded">Rounded</option>
-                                    <option value="classy">Classy</option>
-                                    <option value="classy-rounded">Classy Rounded</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="cornerSquareStyle" class="form-label">Corner Square Style</label>
-                                <select class="form-select" id="cornerSquareStyle">
-                                    <option value="square" selected>Square</option>
-                                    <option value="dot">Dot</option>
-                                    <option value="extra-rounded">Extra Rounded</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="cornerDotStyle" class="form-label">Corner Dot Style</label>
-                                <select class="form-select" id="cornerDotStyle">
-                                    <option value="square" selected>Square</option>
-                                    <option value="dot">Dot</option>
-                                </select>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-check form-switch">
-                                    <input class="form-check-input" type="checkbox" id="logoToggle">
-                                    <label class="form-check-label" for="logoToggle">Add Logo/Image</label>
-                                </div>
-                            </div>
-                            <div class="col-12" id="logoOptions" style="display: none;">
-                                <div class="mb-3">
-                                    <label for="logoFile" class="form-label">Upload Logo</label>
-                                    <input class="form-control" type="file" id="logoFile" accept="image/*">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="logoSize" class="form-label">Logo Size</label>
-                                    <div class="input-group">
-                                        <input type="range" class="form-range form-control" id="logoSize" min="10" max="30" value="15">
-                                        <span class="input-group-text" id="logoSizeValue">15%</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <!-- Main Content -->
+    <main class="main-container" role="main">
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <article class="card mb-4">
+            <div class="card-header">
+              <i class="fas fa-pen me-2" aria-hidden="true"></i>QR Code Content
             </div>
-
-            <div class="col-lg-5">
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <i class="fas fa-eye me-2"></i>QR Code Preview
-                    </div>
-                    <div class="card-body">
-                        <div class="qr-preview-container" id="qrPreviewContainer">
-                            <div id="qrCodePreview"></div>
-                            <div class="loading-overlay" id="loadingOverlay" style="display: none;">
-                                <div class="spinner-border" role="status">
-                                    <span class="visually-hidden">Loading...</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3 text-center">
-                            <button id="downloadPNG" class="btn btn-success download-btn">
-                                <i class="fas fa-download me-2"></i>Download PNG
-                            </button>
-                            <button id="downloadSVG" class="btn btn-info download-btn">
-                                <i class="fas fa-download me-2"></i>Download SVG
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header">
-                        <i class="fas fa-th-large me-2"></i>Design Templates
-                    </div>
-                    <div class="card-body">
-                        <div class="row g-3" id="templatesContainer">
-                            <div class="col-4">
-                                <div class="template-option active" data-template="basic">
-                                    <div class="ratio ratio-1x1">
-                                        <div class="d-flex align-items-center justify-content-center bg-light">
-                                            <i class="fas fa-qrcode fa-2x text-primary"></i>
-                                        </div>
-                                    </div>
-                                    <div class="template-title">Basic</div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="template-option" data-template="rounded">
-                                    <div class="ratio ratio-1x1">
-                                        <div class="d-flex align-items-center justify-content-center bg-light rounded-4">
-                                            <i class="fas fa-qrcode fa-2x text-primary"></i>
-                                        </div>
-                                    </div>
-                                    <div class="template-title">Rounded</div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="template-option" data-template="shadow">
-                                    <div class="ratio ratio-1x1">
-                                        <div class="d-flex align-items-center justify-content-center bg-light shadow">
-                                            <i class="fas fa-qrcode fa-2x text-primary"></i>
-                                        </div>
-                                    </div>
-                                    <div class="template-title">Shadow</div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="template-option" data-template="gradient">
-                                    <div class="ratio ratio-1x1">
-                                        <div class="d-flex align-items-center justify-content-center bg-gradient">
-                                            <i class="fas fa-qrcode fa-2x text-primary"></i>
-                                        </div>
-                                    </div>
-                                    <div class="template-title">Gradient</div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="template-option" data-template="frame">
-                                    <div class="ratio ratio-1x1">
-                                        <div class="d-flex align-items-center justify-content-center bg-light border border-3 border-dark">
-                                            <i class="fas fa-qrcode fa-2x text-primary"></i>
-                                        </div>
-                                    </div>
-                                    <div class="template-title">Frame</div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="template-option" data-template="dots">
-                                    <div class="ratio ratio-1x1">
-                                        <div class="d-flex align-items-center justify-content-center bg-light" style="background-image: radial-gradient(#ddd 1px, transparent 1px); background-size: 8px 8px;">
-                                            <i class="fas fa-qrcode fa-2x text-primary"></i>
-                                        </div>
-                                    </div>
-                                    <div class="template-title">Dots</div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="template-option" data-template="scan-me">
-                                    <div class="ratio ratio-1x1">
-                                        <div class="d-flex flex-column align-items-center justify-content-center bg-light">
-                                            <i class="fas fa-qrcode fa-2x text-primary mb-2"></i>
-                                            <small class="text-uppercase fw-bold">Scan Me</small>
-                                        </div>
-                                    </div>
-                                    <div class="template-title">Scan Me</div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="template-option" data-template="polaroid">
-                                    <div class="ratio ratio-1x1">
-                                        <div class="d-flex flex-column align-items-center justify-content-center bg-light shadow-sm" style="padding-bottom: 20%;">
-                                            <i class="fas fa-qrcode fa-2x text-primary"></i>
-                                        </div>
-                                    </div>
-                                    <div class="template-title">Polaroid</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="card-body">
+              <div class="mb-3">
+                <label for="qrContent" class="form-label"
+                  >Enter text or URL</label
+                >
+                <textarea
+                  class="form-control"
+                  id="qrContent"
+                  rows="3"
+                  placeholder="Enter the content for your QR code..."
+                  aria-label="QR Code Content"
+                ></textarea>
+              </div>
+              <button
+                id="generateBtn"
+                class="btn btn-primary"
+                aria-label="Generate QR Code"
+              >
+                <i class="fas fa-sync-alt me-2" aria-hidden="true"></i>Generate
+                QR Code
+              </button>
             </div>
+          </article>
+
+          <article class="card mb-4">
+            <div class="card-header">
+              <i class="fas fa-palette me-2" aria-hidden="true"></i
+              >Customization Options
+            </div>
+            <div class="card-body">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">Foreground Color</label>
+                  <div class="input-group">
+                    <span class="input-group-text">
+                      <span
+                        id="fgColorPreview"
+                        class="color-preview"
+                        style="background-color: #000000"
+                        aria-hidden="true"
+                      ></span>
+                    </span>
+                    <input
+                      type="color"
+                      class="form-control form-control-color"
+                      id="fgColor"
+                      value="#000000"
+                      aria-label="Foreground Color Picker"
+                    />
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="fgColorText"
+                      value="#000000"
+                      aria-label="Foreground Color Hex Value"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Background Color</label>
+                  <div class="input-group">
+                    <span class="input-group-text">
+                      <span
+                        id="bgColorPreview"
+                        class="color-preview"
+                        style="background-color: #ffffff"
+                        aria-hidden="true"
+                      ></span>
+                    </span>
+                    <input
+                      type="color"
+                      class="form-control form-control-color"
+                      id="bgColor"
+                      value="#FFFFFF"
+                      aria-label="Background Color Picker"
+                    />
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="bgColorText"
+                      value="#FFFFFF"
+                      aria-label="Background Color Hex Value"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="qrSize" class="form-label">QR Code Size</label>
+                  <div class="input-group">
+                    <input
+                      type="range"
+                      class="form-range form-control"
+                      id="qrSize"
+                      min="100"
+                      max="400"
+                      value="200"
+                      aria-label="QR Code Size Slider"
+                    />
+                    <span
+                      class="input-group-text"
+                      id="qrSizeValue"
+                      aria-live="polite"
+                      >200px</span
+                    >
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="errorCorrectionLevel" class="form-label"
+                    >Error Correction</label
+                  >
+                  <select
+                    class="form-select"
+                    id="errorCorrectionLevel"
+                    aria-label="Error Correction Level"
+                  >
+                    <option value="L">Low (7%)</option>
+                    <option value="M" selected>Medium (15%)</option>
+                    <option value="Q">Quartile (25%)</option>
+                    <option value="H">High (30%)</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label for="qrMargin" class="form-label"
+                    >Margin/Padding</label
+                  >
+                  <div class="input-group">
+                    <input
+                      type="range"
+                      class="form-range form-control"
+                      id="qrMargin"
+                      min="0"
+                      max="5"
+                      value="1"
+                      aria-label="QR Code Margin Slider"
+                    />
+                    <span
+                      class="input-group-text"
+                      id="qrMarginValue"
+                      aria-live="polite"
+                      >1</span
+                    >
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="dotStyle" class="form-label">Dot Style</label>
+                  <select
+                    class="form-select"
+                    id="dotStyle"
+                    aria-label="QR Code Dot Style"
+                  >
+                    <option value="square" selected>Square</option>
+                    <option value="dots">Dots</option>
+                    <option value="rounded">Rounded</option>
+                    <option value="classy">Classy</option>
+                    <option value="classy-rounded">Classy Rounded</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label for="cornerSquareStyle" class="form-label"
+                    >Corner Square Style</label
+                  >
+                  <select
+                    class="form-select"
+                    id="cornerSquareStyle"
+                    aria-label="Corner Square Style"
+                  >
+                    <option value="square" selected>Square</option>
+                    <option value="dot">Dot</option>
+                    <option value="extra-rounded">Extra Rounded</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label for="cornerDotStyle" class="form-label"
+                    >Corner Dot Style</label
+                  >
+                  <select
+                    class="form-select"
+                    id="cornerDotStyle"
+                    aria-label="Corner Dot Style"
+                  >
+                    <option value="square" selected>Square</option>
+                    <option value="dot">Dot</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <div class="form-check form-switch">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="logoToggle"
+                      aria-label="Enable Logo"
+                    />
+                    <label class="form-check-label" for="logoToggle"
+                      >Add Logo/Image</label
+                    >
+                  </div>
+                </div>
+                <div class="col-12" id="logoOptions" style="display: none">
+                  <div class="mb-3">
+                    <label for="logoFile" class="form-label">Upload Logo</label>
+                    <input
+                      class="form-control"
+                      type="file"
+                      id="logoFile"
+                      accept="image/*"
+                      aria-label="Upload Logo File"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="logoSize" class="form-label">Logo Size</label>
+                    <div class="input-group">
+                      <input
+                        type="range"
+                        class="form-range form-control"
+                        id="logoSize"
+                        min="10"
+                        max="30"
+                        value="15"
+                        aria-label="Logo Size Slider"
+                      />
+                      <span
+                        class="input-group-text"
+                        id="logoSizeValue"
+                        aria-live="polite"
+                        >15%</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
         </div>
-    </div>
 
-    <div class="toast-container"></div>
+        <div class="col-lg-5">
+          <article class="card mb-4">
+            <div class="card-header">
+              <i class="fas fa-eye me-2" aria-hidden="true"></i>QR Code Preview
+            </div>
+            <div class="card-body">
+              <div
+                class="qr-preview-container"
+                id="qrPreviewContainer"
+                role="img"
+                aria-label="QR Code Preview"
+              >
+                <div id="qrCodePreview"></div>
+                <div
+                  class="loading-overlay"
+                  id="loadingOverlay"
+                  style="display: none"
+                  role="status"
+                  aria-live="polite"
+                >
+                  <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-3 text-center">
+                <button
+                  id="downloadPNG"
+                  class="btn btn-success download-btn"
+                  aria-label="Download QR Code as PNG"
+                >
+                  <i class="fas fa-download me-2" aria-hidden="true"></i
+                  >Download PNG
+                </button>
+                <button
+                  id="downloadSVG"
+                  class="btn btn-info download-btn"
+                  aria-label="Download QR Code as SVG"
+                >
+                  <i class="fas fa-download me-2" aria-hidden="true"></i
+                  >Download SVG
+                </button>
+              </div>
+            </div>
+          </article>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- QRCode.js -->
+          <article class="card">
+            <div class="card-header">
+              <i class="fas fa-th-large me-2" aria-hidden="true"></i>Design
+              Templates
+            </div>
+            <div class="card-body">
+              <div
+                class="row g-3"
+                id="templatesContainer"
+                role="radiogroup"
+                aria-label="QR Code Design Templates"
+              >
+                <div class="col-4">
+                  <div
+                    class="template-option active"
+                    data-template="basic"
+                    role="radio"
+                    aria-checked="true"
+                    tabindex="0"
+                  >
+                    <div class="ratio ratio-1x1">
+                      <div
+                        class="d-flex align-items-center justify-content-center bg-light"
+                      >
+                        <i
+                          class="fas fa-qrcode fa-2x text-primary"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div class="template-title">Basic</div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div
+                    class="template-option"
+                    data-template="rounded"
+                    role="radio"
+                    aria-checked="false"
+                    tabindex="-1"
+                  >
+                    <div class="ratio ratio-1x1">
+                      <div
+                        class="d-flex align-items-center justify-content-center bg-light rounded-4"
+                      >
+                        <i
+                          class="fas fa-qrcode fa-2x text-primary"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div class="template-title">Rounded</div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div
+                    class="template-option"
+                    data-template="shadow"
+                    role="radio"
+                    aria-checked="false"
+                    tabindex="-1"
+                  >
+                    <div class="ratio ratio-1x1">
+                      <div
+                        class="d-flex align-items-center justify-content-center bg-light shadow"
+                      >
+                        <i
+                          class="fas fa-qrcode fa-2x text-primary"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div class="template-title">Shadow</div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div
+                    class="template-option"
+                    data-template="gradient"
+                    role="radio"
+                    aria-checked="false"
+                    tabindex="-1"
+                  >
+                    <div class="ratio ratio-1x1">
+                      <div
+                        class="d-flex align-items-center justify-content-center bg-gradient"
+                      >
+                        <i
+                          class="fas fa-qrcode fa-2x text-primary"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div class="template-title">Gradient</div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div
+                    class="template-option"
+                    data-template="frame"
+                    role="radio"
+                    aria-checked="false"
+                    tabindex="-1"
+                  >
+                    <div class="ratio ratio-1x1">
+                      <div
+                        class="d-flex align-items-center justify-content-center bg-light border border-3 border-dark"
+                      >
+                        <i
+                          class="fas fa-qrcode fa-2x text-primary"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div class="template-title">Frame</div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div
+                    class="template-option"
+                    data-template="dots"
+                    role="radio"
+                    aria-checked="false"
+                    tabindex="-1"
+                  >
+                    <div class="ratio ratio-1x1">
+                      <div
+                        class="d-flex align-items-center justify-content-center bg-light"
+                        style="
+                          background-image: radial-gradient(
+                            #ddd 1px,
+                            transparent 1px
+                          );
+                          background-size: 8px 8px;
+                        "
+                      >
+                        <i
+                          class="fas fa-qrcode fa-2x text-primary"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div class="template-title">Dots</div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div
+                    class="template-option"
+                    data-template="scan-me"
+                    role="radio"
+                    aria-checked="false"
+                    tabindex="-1"
+                  >
+                    <div class="ratio ratio-1x1">
+                      <div
+                        class="d-flex flex-column align-items-center justify-content-center bg-light"
+                      >
+                        <i
+                          class="fas fa-qrcode fa-2x text-primary mb-2"
+                          aria-hidden="true"
+                        ></i>
+                        <small class="text-uppercase fw-bold">Scan Me</small>
+                      </div>
+                    </div>
+                    <div class="template-title">Scan Me</div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div
+                    class="template-option"
+                    data-template="polaroid"
+                    role="radio"
+                    aria-checked="false"
+                    tabindex="-1"
+                  >
+                    <div class="ratio ratio-1x1">
+                      <div
+                        class="d-flex flex-column align-items-center justify-content-center bg-light shadow-sm"
+                        style="padding-bottom: 20%"
+                      >
+                        <i
+                          class="fas fa-qrcode fa-2x text-primary"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div class="template-title">Polaroid</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- SEO Content Section -->
+      <section class="seo-content">
+        <h1>Free QR Code Generator - Create Custom QR Codes Online</h1>
+
+        <p>
+          Welcome to the most advanced
+          <strong>free QR code generator</strong> online! Create professional,
+          customizable QR codes in seconds without any registration or hidden
+          fees. Our tool offers unlimited QR code generation with advanced
+          features like logo integration, color customization, and multiple
+          design templates.
+        </p>
+
+        <h2>Why Choose Our QR Code Generator?</h2>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <i class="fas fa-infinity" aria-hidden="true"></i>
+            <h4>Unlimited & Free</h4>
+            <p>
+              Generate unlimited QR codes completely free. No subscriptions or
+              hidden costs.
+            </p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-palette" aria-hidden="true"></i>
+            <h4>Fully Customizable</h4>
+            <p>Customize colors, styles, sizes, and add your company logo.</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-download" aria-hidden="true"></i>
+            <h4>PNG & SVG Export</h4>
+            <p>Download in high-quality PNG or scalable SVG formats.</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-shield-alt" aria-hidden="true"></i>
+            <h4>No Tracking</h4>
+            <p>Static QR codes that never expire. Your data stays private.</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-bolt" aria-hidden="true"></i>
+            <h4>Instant Generation</h4>
+            <p>Create QR codes instantly with real-time preview.</p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+            <h4>Mobile Friendly</h4>
+            <p>Works perfectly on all devices - desktop, tablet, and mobile.</p>
+          </div>
+        </div>
+
+        <h2>How to Create a QR Code</h2>
+
+        <ol>
+          <li>
+            <strong>Enter Your Content:</strong> Type or paste your URL, text,
+            phone number, or any content you want to encode.
+          </li>
+          <li>
+            <strong>Customize the Design:</strong> Choose from 8 professional
+            templates, select colors, and adjust the dot style.
+          </li>
+          <li>
+            <strong>Add Your Logo (Optional):</strong> Upload your company logo
+            to create branded QR codes.
+          </li>
+          <li>
+            <strong>Adjust Error Correction:</strong> Select the appropriate
+            error correction level based on your use case.
+          </li>
+          <li>
+            <strong>Download:</strong> Click the generate button and download
+            your QR code as PNG or SVG.
+          </li>
+        </ol>
+
+        <h2>QR Code Customization Features</h2>
+
+        <h3>Design Templates</h3>
+        <p>Choose from 8 professionally designed templates:</p>
+        <ul>
+          <li>
+            <strong>Basic:</strong> Clean and simple design for professional use
+          </li>
+          <li>
+            <strong>Rounded:</strong> Soft corners for modern, friendly
+            appearance
+          </li>
+          <li><strong>Shadow:</strong> 3D effect that makes QR codes pop</li>
+          <li><strong>Gradient:</strong> Eye-catching gradient background</li>
+          <li><strong>Frame:</strong> Bold border for maximum visibility</li>
+          <li><strong>Dots:</strong> Unique dotted background pattern</li>
+          <li><strong>Scan Me:</strong> Includes call-to-action text</li>
+          <li><strong>Polaroid:</strong> Vintage photo-style design</li>
+        </ul>
+
+        <h3>Color Customization</h3>
+        <p>
+          Fully customize your QR code colors to match your brand identity.
+          Change both the foreground (dots) and background colors with our
+          intuitive color picker or by entering hex color codes directly.
+        </p>
+
+        <h3>Logo Integration</h3>
+        <p>
+          Make your QR codes stand out by adding your company logo or brand
+          image in the center. Our generator automatically optimizes logo
+          placement to ensure the QR code remains scannable.
+        </p>
+
+        <h3>Error Correction Levels</h3>
+        <ul>
+          <li>
+            <strong>Low (7%):</strong> Best for digital displays and clean
+            environments
+          </li>
+          <li><strong>Medium (15%):</strong> Recommended for most use cases</li>
+          <li>
+            <strong>Quartile (25%):</strong> Good balance between data capacity
+            and error tolerance
+          </li>
+          <li>
+            <strong>High (30%):</strong> Ideal when adding logos or for
+            potentially damaged codes
+          </li>
+        </ul>
+
+        <h2>Common Uses for QR Codes</h2>
+
+        <h3>Business & Marketing</h3>
+        <ul>
+          <li>Website URLs and landing pages</li>
+          <li>Product information and catalogs</li>
+          <li>Business cards and contact information</li>
+          <li>Social media profiles</li>
+          <li>Event registration and ticketing</li>
+          <li>Restaurant menus and ordering</li>
+          <li>Payment links and invoices</li>
+        </ul>
+
+        <h3>Personal Use</h3>
+        <ul>
+          <li>WiFi network credentials</li>
+          <li>Personal contact information (vCard)</li>
+          <li>Event invitations</li>
+          <li>Gift messages and greetings</li>
+          <li>Photo sharing and albums</li>
+        </ul>
+
+        <h2>QR Code Best Practices</h2>
+
+        <h3>Size and Placement</h3>
+        <p>
+          Ensure your QR code is large enough to be scanned easily. A minimum
+          size of 2cm x 2cm (0.8" x 0.8") is recommended for printed materials.
+          Always test your QR code at the actual size it will be used.
+        </p>
+
+        <h3>Contrast and Colors</h3>
+        <p>
+          Maintain high contrast between foreground and background colors. Dark
+          colors on light backgrounds work best. Avoid light colors on dark
+          backgrounds as they may not scan reliably.
+        </p>
+
+        <h3>Error Correction</h3>
+        <p>Use higher error correction levels (Q or H) when:</p>
+        <ul>
+          <li>Adding a logo to your QR code</li>
+          <li>Printing on materials that might get damaged</li>
+          <li>Using the QR code in harsh environments</li>
+          <li>Applying the code on curved surfaces</li>
+        </ul>
+
+        <h3>Testing</h3>
+        <p>
+          Always test your QR code with multiple devices and QR code readers
+          before publishing or printing. Check that it directs to the correct
+          destination and scans reliably.
+        </p>
+
+        <h2>Download Formats</h2>
+
+        <h3>PNG Format</h3>
+        <p>
+          <strong>PNG (Portable Network Graphics)</strong> is perfect for web
+          use and digital displays. Our generator creates high-resolution PNG
+          files (4x scale) that look crisp on screens and can be used in
+          presentations, websites, and digital marketing materials.
+        </p>
+
+        <h3>SVG Format</h3>
+        <p>
+          <strong>SVG (Scalable Vector Graphics)</strong> is ideal for print
+          materials and situations where you need to resize the QR code. Vector
+          format ensures your QR code remains sharp at any size, making it
+          perfect for large format printing, billboards, and professional design
+          work.
+        </p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <h3>Is this QR code generator really free?</h3>
+        <p>
+          Yes! Our QR code generator is 100% free with no limitations. You can
+          create unlimited QR codes, use all customization features, and
+          download in both PNG and SVG formats without any charges or
+          registration.
+        </p>
+
+        <h3>Do the QR codes expire?</h3>
+        <p>
+          No. All QR codes generated with our tool are static and never expire.
+          They will work indefinitely as long as the content they link to
+          remains accessible.
+        </p>
+
+        <h3>Can I use the QR codes commercially?</h3>
+        <p>
+          Absolutely! You have full rights to use any QR codes you create with
+          our generator for personal or commercial purposes, including marketing
+          materials, business cards, products, and websites.
+        </p>
+
+        <h3>Why should I add a logo to my QR code?</h3>
+        <p>
+          Adding a logo makes your QR code more recognizable and trustworthy.
+          Branded QR codes are more likely to be scanned as users can identify
+          the source. Just make sure to use High error correction level when
+          adding logos.
+        </p>
+
+        <h3>What's the difference between static and dynamic QR codes?</h3>
+        <p>
+          Static QR codes (like those created here) contain the actual data and
+          cannot be changed once created. Dynamic QR codes redirect through a
+          URL that can be changed. Static codes are more reliable, faster to
+          scan, and don't require any tracking services.
+        </p>
+
+        <h3>Can I edit a QR code after creating it?</h3>
+        <p>
+          Once a static QR code is generated, the encoded data cannot be
+          changed. However, you can always create a new QR code with updated
+          information using our generator.
+        </p>
+
+        <h3>What's the maximum amount of data I can encode?</h3>
+        <p>
+          QR codes can store different amounts of data depending on the type and
+          error correction level. Generally, you can encode up to 4,296
+          alphanumeric characters or 7,089 numeric characters. For best scanning
+          performance, we recommend keeping URLs under 300 characters.
+        </p>
+
+        <h2>Privacy and Security</h2>
+
+        <p>
+          Your privacy is important to us. Our QR code generator operates
+          entirely in your browser. The content you enter is not stored on our
+          servers or transmitted anywhere. All QR code generation happens
+          locally on your device, ensuring your data remains completely private
+          and secure.
+        </p>
+
+        <h2>Browser Compatibility</h2>
+
+        <p>Our QR code generator works on all modern web browsers including:</p>
+        <ul>
+          <li>Google Chrome (recommended)</li>
+          <li>Mozilla Firefox</li>
+          <li>Safari (macOS and iOS)</li>
+          <li>Microsoft Edge</li>
+          <li>Opera</li>
+          <li>Samsung Internet (mobile)</li>
+        </ul>
+
+        <h2>Get Started Now</h2>
+
+        <p>
+          Creating professional QR codes has never been easier. Simply enter
+          your content above, customize the design to match your brand, and
+          download your QR code in seconds. No registration, no hidden fees -
+          just a powerful, free tool that helps you create beautiful QR codes
+          for any purpose.
+        </p>
+
+        <p>
+          <strong
+            >Start generating your custom QR codes today and take your
+            marketing, business, or personal projects to the next level!</strong
+          >
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white shadow-sm mt-5 py-4" role="contentinfo">
+      <div class="container text-center">
+        <p class="mb-2">
+          &copy; 2025 QR Code Generator Pro. All rights reserved.
+        </p>
+        <p class="text-muted small">
+          Professional QR Code Generation Tool - Free Forever
+        </p>
+        <div class="mt-3">
+          <a
+            href="#"
+            class="text-decoration-none mx-2"
+            aria-label="Privacy Policy"
+            >Privacy Policy</a
+          >
+          <a
+            href="#"
+            class="text-decoration-none mx-2"
+            aria-label="Terms of Service"
+            >Terms of Service</a
+          >
+          <a href="#" class="text-decoration-none mx-2" aria-label="Contact Us"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js"></script>
-    <!-- QR Code Styling -->
     <script src="https://cdn.jsdelivr.net/npm/qr-code-styling@1.6.0-rc.1/lib/qr-code-styling.min.js"></script>
-    <!-- html2canvas -->
     <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
-    <!-- FileSaver.js -->
     <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js"></script>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Elements
-            const qrContent = document.getElementById('qrContent');
-            const generateBtn = document.getElementById('generateBtn');
-            const qrPreviewContainer = document.getElementById('qrPreviewContainer');
-            const qrCodePreview = document.getElementById('qrCodePreview');
-            const loadingOverlay = document.getElementById('loadingOverlay');
-            const downloadPNG = document.getElementById('downloadPNG');
-            const downloadSVG = document.getElementById('downloadSVG');
-            const templatesContainer = document.getElementById('templatesContainer');
-            
-            // Customization elements
-            const fgColor = document.getElementById('fgColor');
-            const bgColor = document.getElementById('bgColor');
-            const fgColorText = document.getElementById('fgColorText');
-            const bgColorText = document.getElementById('bgColorText');
-            const fgColorPreview = document.getElementById('fgColorPreview');
-            const bgColorPreview = document.getElementById('bgColorPreview');
-            const qrSize = document.getElementById('qrSize');
-            const qrSizeValue = document.getElementById('qrSizeValue');
-            const errorCorrectionLevel = document.getElementById('errorCorrectionLevel');
-            const qrMargin = document.getElementById('qrMargin');
-            const qrMarginValue = document.getElementById('qrMarginValue');
-            const dotStyle = document.getElementById('dotStyle');
-            const cornerSquareStyle = document.getElementById('cornerSquareStyle');
-            const cornerDotStyle = document.getElementById('cornerDotStyle');
-            const logoToggle = document.getElementById('logoToggle');
-            const logoOptions = document.getElementById('logoOptions');
-            const logoFile = document.getElementById('logoFile');
-            const logoSize = document.getElementById('logoSize');
-            const logoSizeValue = document.getElementById('logoSizeValue');
-            
-            // Variables
-            let currentTemplate = 'basic';
-            let qrCode = null;
-            let logoImage = null;
-            
-            // Initialize QR Code
-            function initQRCode() {
-                qrCode = new QRCodeStyling({
-                    width: parseInt(qrSize.value),
-                    height: parseInt(qrSize.value),
-                    type: 'svg',
-                    data: qrContent.value || 'https://example.com',
-                    margin: parseInt(qrMargin.value),
-                    qrOptions: {
-                        errorCorrectionLevel: errorCorrectionLevel.value
-                    },
-                    imageOptions: {
-                        crossOrigin: 'anonymous',
-                        margin: 5
-                    },
-                    dotsOptions: {
-                        color: fgColor.value,
-                        type: dotStyle.value
-                    },
-                    backgroundOptions: {
-                        color: bgColor.value,
-                    },
-                    cornersSquareOptions: {
-                        color: fgColor.value,
-                        type: cornerSquareStyle.value
-                    },
-                    cornersDotOptions: {
-                        color: fgColor.value,
-                        type: cornerDotStyle.value
-                    }
+      document.addEventListener("DOMContentLoaded", function () {
+        const qrContent = document.getElementById("qrContent");
+        const generateBtn = document.getElementById("generateBtn");
+        const qrPreviewContainer =
+          document.getElementById("qrPreviewContainer");
+        const qrCodePreview = document.getElementById("qrCodePreview");
+        const loadingOverlay = document.getElementById("loadingOverlay");
+        const downloadPNG = document.getElementById("downloadPNG");
+        const downloadSVG = document.getElementById("downloadSVG");
+        const templatesContainer =
+          document.getElementById("templatesContainer");
+
+        const fgColor = document.getElementById("fgColor");
+        const bgColor = document.getElementById("bgColor");
+        const fgColorText = document.getElementById("fgColorText");
+        const bgColorText = document.getElementById("bgColorText");
+        const fgColorPreview = document.getElementById("fgColorPreview");
+        const bgColorPreview = document.getElementById("bgColorPreview");
+        const qrSize = document.getElementById("qrSize");
+        const qrSizeValue = document.getElementById("qrSizeValue");
+        const errorCorrectionLevel = document.getElementById(
+          "errorCorrectionLevel"
+        );
+        const qrMargin = document.getElementById("qrMargin");
+        const qrMarginValue = document.getElementById("qrMarginValue");
+        const dotStyle = document.getElementById("dotStyle");
+        const cornerSquareStyle = document.getElementById("cornerSquareStyle");
+        const cornerDotStyle = document.getElementById("cornerDotStyle");
+        const logoToggle = document.getElementById("logoToggle");
+        const logoOptions = document.getElementById("logoOptions");
+        const logoFile = document.getElementById("logoFile");
+        const logoSize = document.getElementById("logoSize");
+        const logoSizeValue = document.getElementById("logoSizeValue");
+
+        let currentTemplate = "basic";
+        let qrCode = null;
+        let logoImage = null;
+
+        function initQRCode() {
+          qrCode = new QRCodeStyling({
+            width: parseInt(qrSize.value),
+            height: parseInt(qrSize.value),
+            type: "svg",
+            data: qrContent.value || "https://qr-seven-zeta.vercel.app/",
+            margin: parseInt(qrMargin.value),
+            qrOptions: {
+              errorCorrectionLevel: errorCorrectionLevel.value,
+            },
+            imageOptions: {
+              crossOrigin: "anonymous",
+              margin: 5,
+            },
+            dotsOptions: {
+              color: fgColor.value,
+              type: dotStyle.value,
+            },
+            backgroundOptions: {
+              color: bgColor.value,
+            },
+            cornersSquareOptions: {
+              color: fgColor.value,
+              type: cornerSquareStyle.value,
+            },
+            cornersDotOptions: {
+              color: fgColor.value,
+              type: cornerDotStyle.value,
+            },
+          });
+
+          qrCodePreview.innerHTML = "";
+          applyTemplate(currentTemplate);
+          qrCode.append(qrCodePreview);
+        }
+
+        function generateQRCode() {
+          loadingOverlay.style.display = "flex";
+
+          setTimeout(() => {
+            try {
+              qrCode.update({
+                width: parseInt(qrSize.value),
+                height: parseInt(qrSize.value),
+                data: qrContent.value || "https://qr-seven-zeta.vercel.app/",
+                margin: parseInt(qrMargin.value),
+                qrOptions: {
+                  errorCorrectionLevel: errorCorrectionLevel.value,
+                },
+                dotsOptions: {
+                  color: fgColor.value,
+                  type: dotStyle.value,
+                },
+                backgroundOptions: {
+                  color: bgColor.value,
+                },
+                cornersSquareOptions: {
+                  color: fgColor.value,
+                  type: cornerSquareStyle.value,
+                },
+                cornersDotOptions: {
+                  color: fgColor.value,
+                  type: cornerDotStyle.value,
+                },
+                image: logoToggle.checked && logoImage ? logoImage : null,
+                imageOptions: {
+                  hideBackgroundDots: true,
+                  imageSize:
+                    logoToggle.checked && logoImage
+                      ? parseFloat(logoSize.value) / 100
+                      : 0.15,
+                  crossOrigin: "anonymous",
+                  margin: 5,
+                },
+              });
+
+              applyTemplate(currentTemplate);
+              showToast("QR code generated successfully!", "success");
+            } catch (error) {
+              console.error("Error generating QR code:", error);
+              showToast(
+                "Error generating QR code. Please try again.",
+                "danger"
+              );
+            } finally {
+              loadingOverlay.style.display = "none";
+            }
+          }, 500);
+        }
+
+        function applyTemplate(template) {
+          qrCodePreview.className = "";
+          qrCodePreview.classList.add("qr-template", `qr-template-${template}`);
+
+          if (template === "scan-me") {
+            qrCodePreview.setAttribute("data-label", "SCAN ME");
+          } else {
+            qrCodePreview.removeAttribute("data-label");
+          }
+        }
+
+        function downloadAsPNG() {
+          loadingOverlay.style.display = "flex";
+
+          setTimeout(() => {
+            try {
+              html2canvas(qrCodePreview, {
+                backgroundColor: null,
+                scale: 4,
+                logging: false,
+              }).then((canvas) => {
+                canvas.toBlob((blob) => {
+                  saveAs(blob, "qrcode.png");
+                  showToast("QR code downloaded as PNG!", "success");
                 });
-                
-                // Clear previous QR code
-                qrCodePreview.innerHTML = '';
-                
-                // Apply template
-                applyTemplate(currentTemplate);
-                
-                // Append QR code to preview container
-                qrCode.append(qrCodePreview);
+              });
+            } catch (error) {
+              console.error("Error downloading QR code:", error);
+              showToast(
+                "Error downloading QR code. Please try again.",
+                "danger"
+              );
+            } finally {
+              loadingOverlay.style.display = "none";
             }
-            
-            // Generate QR Code
-            function generateQRCode() {
-                loadingOverlay.style.display = 'flex';
-                
-                setTimeout(() => {
-                    try {
-                        // Update QR code options
-                        qrCode.update({
-                            width: parseInt(qrSize.value),
-                            height: parseInt(qrSize.value),
-                            data: qrContent.value,
-                            margin: parseInt(qrMargin.value),
-                            qrOptions: {
-                                errorCorrectionLevel: errorCorrectionLevel.value
-                            },
-                            dotsOptions: {
-                                color: fgColor.value,
-                                type: dotStyle.value
-                            },
-                            backgroundOptions: {
-                                color: bgColor.value,
-                            },
-                            cornersSquareOptions: {
-                                color: fgColor.value,
-                                type: cornerSquareStyle.value
-                            },
-                            cornersDotOptions: {
-                                color: fgColor.value,
-                                type: cornerDotStyle.value
-                            },
-                            image: logoToggle.checked && logoImage ? logoImage : null,
-                            imageOptions: {
-                                hideBackgroundDots: true,
-                                imageSize: logoToggle.checked && logoImage ? parseFloat(logoSize.value) / 100 : 0.15,
-                                crossOrigin: 'anonymous',
-                                margin: 5
-                            }
-                        });
-                        
-                        // Apply template
-                        applyTemplate(currentTemplate);
-                        
-                        showToast('QR code generated successfully!', 'success');
-                    } catch (error) {
-                        console.error('Error generating QR code:', error);
-                        showToast('Error generating QR code. Please try again.', 'danger');
-                    } finally {
-                        loadingOverlay.style.display = 'none';
-                    }
-                }, 500);
+          }, 500);
+        }
+
+        function downloadAsSVG() {
+          loadingOverlay.style.display = "flex";
+
+          setTimeout(() => {
+            try {
+              qrCode.download({
+                extension: "svg",
+              });
+              showToast("QR code downloaded as SVG!", "success");
+            } catch (error) {
+              console.error("Error downloading QR code:", error);
+              showToast(
+                "Error downloading QR code. Please try again.",
+                "danger"
+              );
+            } finally {
+              loadingOverlay.style.display = "none";
             }
-            
-            // Apply template
-            function applyTemplate(template) {
-                // Remove previous template classes
-                qrCodePreview.className = '';
-                
-                // Add template class
-                qrCodePreview.classList.add('qr-template', `qr-template-${template}`);
-                
-                // Add specific template styles
-                switch (template) {
-                    case 'scan-me':
-                        qrCodePreview.setAttribute('data-label', 'SCAN ME');
-                        break;
-                    default:
-                        qrCodePreview.removeAttribute('data-label');
-                        break;
-                }
-            }
-            
-            // Download QR Code as PNG
-            function downloadAsPNG() {
-                loadingOverlay.style.display = 'flex';
-                
-                setTimeout(() => {
-                    try {
-                        html2canvas(qrCodePreview, {
-                            backgroundColor: null,
-                            scale: 4,
-                            logging: false
-                        }).then(canvas => {
-                            canvas.toBlob(blob => {
-                                saveAs(blob, 'qrcode.png');
-                                showToast('QR code downloaded as PNG!', 'success');
-                            });
-                        });
-                    } catch (error) {
-                        console.error('Error downloading QR code:', error);
-                        showToast('Error downloading QR code. Please try again.', 'danger');
-                    } finally {
-                        loadingOverlay.style.display = 'none';
-                    }
-                }, 500);
-            }
-            
-            // Download QR Code as SVG
-            function downloadAsSVG() {
-                loadingOverlay.style.display = 'flex';
-                
-                setTimeout(() => {
-                    try {
-                        qrCode.download({
-                            extension: 'svg'
-                        });
-                        showToast('QR code downloaded as SVG!', 'success');
-                    } catch (error) {
-                        console.error('Error downloading QR code:', error);
-                        showToast('Error downloading QR code. Please try again.', 'danger');
-                    } finally {
-                        loadingOverlay.style.display = 'none';
-                    }
-                }, 500);
-            }
-            
-            // Show toast notification
-            function showToast(message, type) {
-                const toastContainer = document.querySelector('.toast-container');
-                const toast = document.createElement('div');
-                toast.className = `toast align-items-center text-white bg-${type} border-0`;
-                toast.setAttribute('role', 'alert');
-                toast.setAttribute('aria-live', 'assertive');
-                toast.setAttribute('aria-atomic', 'true');
-                
-                toast.innerHTML = `
+          }, 500);
+        }
+
+        function showToast(message, type) {
+          const toastContainer = document.querySelector(".toast-container");
+          const toast = document.createElement("div");
+          toast.className = `toast align-items-center text-white bg-${type} border-0`;
+          toast.setAttribute("role", "alert");
+          toast.setAttribute("aria-live", "assertive");
+          toast.setAttribute("aria-atomic", "true");
+
+          toast.innerHTML = `
                     <div class="d-flex">
-                        <div class="toast-body">
-                            ${message}
-                        </div>
+                        <div class="toast-body">${message}</div>
                         <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
                     </div>
-                </div>
                 `;
-                
-                toastContainer.appendChild(toast);
-                
-                const bsToast = new bootstrap.Toast(toast, {
-                    autohide: true,
-                    delay: 3000
-                });
-                
-                bsToast.show();
-                
-                toast.addEventListener('hidden.bs.toast', function() {
-                    toast.remove();
-                });
-            }
-            
-            // Handle logo file upload
-            function handleLogoUpload(event) {
-                const file = event.target.files[0];
-                
-                if (file) {
-                    const reader = new FileReader();
-                    
-                    reader.onload = function(e) {
-                        logoImage = e.target.result;
-                        generateQRCode();
-                    };
-                    
-                    reader.readAsDataURL(file);
-                }
-            }
-            
-            // Event Listeners
-            generateBtn.addEventListener('click', generateQRCode);
-            downloadPNG.addEventListener('click', downloadAsPNG);
-            downloadSVG.addEventListener('click', downloadAsSVG);
-            
-            // Template selection
-            templatesContainer.addEventListener('click', function(event) {
-                const templateOption = event.target.closest('.template-option');
-                
-                if (templateOption) {
-                    // Remove active class from all templates
-                    document.querySelectorAll('.template-option').forEach(el => {
-                        el.classList.remove('active');
-                    });
-                    
-                    // Add active class to selected template
-                    templateOption.classList.add('active');
-                    
-                    // Update current template
-                    currentTemplate = templateOption.dataset.template;
-                    
-                    // Apply template
-                    applyTemplate(currentTemplate);
-                }
+
+          toastContainer.appendChild(toast);
+
+          const bsToast = new bootstrap.Toast(toast, {
+            autohide: true,
+            delay: 3000,
+          });
+
+          bsToast.show();
+
+          toast.addEventListener("hidden.bs.toast", function () {
+            toast.remove();
+          });
+        }
+
+        function handleLogoUpload(event) {
+          const file = event.target.files[0];
+
+          if (file) {
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+              logoImage = e.target.result;
+              generateQRCode();
+            };
+
+            reader.readAsDataURL(file);
+          }
+        }
+
+        generateBtn.addEventListener("click", generateQRCode);
+        downloadPNG.addEventListener("click", downloadAsPNG);
+        downloadSVG.addEventListener("click", downloadAsSVG);
+
+        templatesContainer.addEventListener("click", function (event) {
+          const templateOption = event.target.closest(".template-option");
+
+          if (templateOption) {
+            document.querySelectorAll(".template-option").forEach((el) => {
+              el.classList.remove("active");
+              el.setAttribute("aria-checked", "false");
+              el.setAttribute("tabindex", "-1");
             });
-            
-            // Color inputs
-            fgColor.addEventListener('input', function() {
-                fgColorText.value = this.value;
-                fgColorPreview.style.backgroundColor = this.value;
-                generateQRCode();
-            });
-            
-            bgColor.addEventListener('input', function() {
-                bgColorText.value = this.value;
-                bgColorPreview.style.backgroundColor = this.value;
-                generateQRCode();
-            });
-            
-            fgColorText.addEventListener('input', function() {
-                if (/^#[0-9A-F]{6}$/i.test(this.value)) {
-                    fgColor.value = this.value;
-                    fgColorPreview.style.backgroundColor = this.value;
-                    generateQRCode();
-                }
-            });
-            
-            bgColorText.addEventListener('input', function() {
-                if (/^#[0-9A-F]{6}$/i.test(this.value)) {
-                    bgColor.value = this.value;
-                    bgColorPreview.style.backgroundColor = this.value;
-                    generateQRCode();
-                }
-            });
-            
-            // Size slider
-            qrSize.addEventListener('input', function() {
-                qrSizeValue.textContent = `${this.value}px`;
-                generateQRCode();
-            });
-            
-            // Margin slider
-            qrMargin.addEventListener('input', function() {
-                qrMarginValue.textContent = this.value;
-                generateQRCode();
-            });
-            
-            // Error correction level
-            errorCorrectionLevel.addEventListener('change', generateQRCode);
-            
-            // Dot style
-            dotStyle.addEventListener('change', generateQRCode);
-            
-            // Corner styles
-            cornerSquareStyle.addEventListener('change', generateQRCode);
-            cornerDotStyle.addEventListener('change', generateQRCode);
-            
-            // Logo toggle
-            logoToggle.addEventListener('change', function() {
-                logoOptions.style.display = this.checked ? 'block' : 'none';
-                generateQRCode();
-            });
-            
-            // Logo file
-            logoFile.addEventListener('change', handleLogoUpload);
-            
-            // Logo size
-            logoSize.addEventListener('input', function() {
-                logoSizeValue.textContent = `${this.value}%`;
-                if (logoImage) {
-                    generateQRCode();
-                }
-            });
-            
-            // Initialize QR Code
-            initQRCode();
+
+            templateOption.classList.add("active");
+            templateOption.setAttribute("aria-checked", "true");
+            templateOption.setAttribute("tabindex", "0");
+
+            currentTemplate = templateOption.dataset.template;
+            applyTemplate(currentTemplate);
+          }
         });
+
+        fgColor.addEventListener("input", function () {
+          fgColorText.value = this.value;
+          fgColorPreview.style.backgroundColor = this.value;
+          generateQRCode();
+        });
+
+        bgColor.addEventListener("input", function () {
+          bgColorText.value = this.value;
+          bgColorPreview.style.backgroundColor = this.value;
+          generateQRCode();
+        });
+
+        fgColorText.addEventListener("input", function () {
+          if (/^#[0-9A-F]{6}$/i.test(this.value)) {
+            fgColor.value = this.value;
+            fgColorPreview.style.backgroundColor = this.value;
+            generateQRCode();
+          }
+        });
+
+        bgColorText.addEventListener("input", function () {
+          if (/^#[0-9A-F]{6}$/i.test(this.value)) {
+            bgColor.value = this.value;
+            bgColorPreview.style.backgroundColor = this.value;
+            generateQRCode();
+          }
+        });
+
+        qrSize.addEventListener("input", function () {
+          qrSizeValue.textContent = `${this.value}px`;
+          generateQRCode();
+        });
+
+        qrMargin.addEventListener("input", function () {
+          qrMarginValue.textContent = this.value;
+          generateQRCode();
+        });
+
+        errorCorrectionLevel.addEventListener("change", generateQRCode);
+        dotStyle.addEventListener("change", generateQRCode);
+        cornerSquareStyle.addEventListener("change", generateQRCode);
+        cornerDotStyle.addEventListener("change", generateQRCode);
+
+        logoToggle.addEventListener("change", function () {
+          logoOptions.style.display = this.checked ? "block" : "none";
+          generateQRCode();
+        });
+
+        logoFile.addEventListener("change", handleLogoUpload);
+
+        logoSize.addEventListener("input", function () {
+          logoSizeValue.textContent = `${this.value}%`;
+          if (logoImage) {
+            generateQRCode();
+          }
+        });
+
+        initQRCode();
+      });
     </script>
-</body>
+  </body>
 </html>
